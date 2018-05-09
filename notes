@@ -1,0 +1,5 @@
+Issues:
+1. Mac system
+	System preference >> Security & Private >> allow oracel
+2. network hotonly
+sudo "/Library/Application Support/VirtualBox/LaunchDaemons/VirtualBoxStartup.sh" restart

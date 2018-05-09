@@ -1,0 +1,21 @@
+<VirtualHost *:80>
+	DocumentRoot "/var/www/drupal/php"
+	ServerName drupal.dev
+	<Directory "/var/www/drupal/php">
+		Options Indexes MultiViews FollowSymLinks
+		allow from all
+		AllowOverride All
+		Options +Indexes
+	</Directory>
+</VirtualHost>
+<VirtualHost *:80>
+	DocumentRoot "/var/www/kickstart/php"
+	ServerName kickstart.dev
+	<Directory "/var/www/kickstart/php">
+		Options Indexes MultiViews FollowSymLinks
+		allow from all
+		AllowOverride All
+		Options +Indexes
+	</Directory>
+</VirtualHost>
+
